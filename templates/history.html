@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    history
+{% endblock %}
+
+{% block main %}
+<table class="table">
+    <thead>
+        <tr>
+          <th scope="col">Symbol</th>
+          <th scope="col">Name</th>
+          <th scope="col">Shares</th>
+          <th scope="col">Price</th>
+          <th scope="col">total</th>
+          <th scope="col">time</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in table %}
+        <tr>
+          <td>{{ row['symbol'] }}</td>
+          <td>{{ row['stock_name'] }}</td>
+          <td>{{ row['shares'] }}</td>
+          <td>{{ row['price'] }}</td>
+          <td>{{ row['total'] }}</td>
+          <td>{{ row['time'] }}</td>
+        </tr>
+        {% endfor %}
+        <tr>
+          <td>CS50</td>
+          <td>Finance</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>10000</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
