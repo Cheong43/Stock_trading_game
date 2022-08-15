@@ -1,4 +1,4 @@
-# 🤑 Web stock trading game 🤑
+# 🤑 Stock trading web game 🤑
 A stock trading web game base on real time NYSE stock price.
 Written on Flask framework.
 
