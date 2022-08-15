@@ -8,4 +8,4 @@ Every user will receive a $1000 luanching money, buying & selling erctain amount
 - 💸 **MySQL** database contain all users information, holding stocks, cash, trading records and more data.
 - 🐛 **API listening** real-time stock prices
 - :atom: **Bootstrap** styling
-- :octocat: **HTML/CSS** web froent-end
+- :octocat: **HTML/CSS** web front-end
