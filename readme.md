@@ -6,5 +6,5 @@ Every user will receive a $1000 luanching money, buying & selling erctain amount
 
 - A Flask Framework base web project
 - MySQL database contain all users information, holding stocks, cash, trading records and more data.
-- API listening stock prices
+- API listening real-time stock prices
 - HTML/CSS web froent-end
